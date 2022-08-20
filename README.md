@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The normal distribution, also known as the Gaussian Distribution is the limiting case of binomial distribution when the size of a single sample is infinitesimally small, and the number of sample in infinitesimally large. 
+The normal distribution, also known as the Gaussian Distribution, is the limiting case of binomial distribution when the size of a single sample is infinitesimally small, and the number of sample in infinitely large. 
 
 Although normal distribution is widely applied in natural sciences, but the abundancy of its occurence has nothing to do with the physical laws, because this is in fact purely a mathematical/statistical result. 
 
