@@ -79,7 +79,7 @@ df1
 If the distribution of data follow the normal distribution, then we will get a result near to the Expected fraction of
 population inside range(taken from [68–95–99.7 rule](https://en.wikipedia.org/wiki/68%E2%80%9395%E2%80%9399.7_rule))
 
-|        Range        |  Expected fraction of population inside range  |  
+|        Range        |     Expected fraction of data inside range     |  
 |        :---:        |                      :---:                     |        
 | $\mu \pm 1 \sigma$  |                0.682689492137086               |       
 | $\mu \pm 2 \sigma$  |                0.954499736103642               |        
@@ -87,6 +87,7 @@ population inside range(taken from [68–95–99.7 rule](https://en.wikipedia.or
 | $\mu \pm 3 \sigma$  |                0.999936657516334               |
 
 Our result is:<br>
-![image](https://user-images.githubusercontent.com/108325848/185755405-62f18b29-cbe9-4ecf-846e-669fc024cc33.png)
+![image](https://user-images.githubusercontent.com/108325848/185755522-48f6df9d-bc3f-4844-a420-74bfe2f20747.png)
+
 
 
