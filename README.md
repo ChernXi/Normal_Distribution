@@ -27,7 +27,6 @@ To justify whether the result really follow the normal distribution, we can writ
 
 First, we create a list of marks.
 ```
-import numpy as np
 import random
 list_mark = []
 list1=[0,1]
@@ -62,26 +61,30 @@ Total_sigma1=0
 Total_sigma2=0
 Total_sigma3=0
 Total_sigma4=0
-Outlier=0
+
 for mark in list_mark:
   if mark >= (5000-sigma) and mark<= (5000+sigma):
     Total_sigma1+=1
-  elif mark >= (5000-2*sigma) and mark<= (5000+2*sigma):
+  if mark >= (5000-2*sigma) and mark<= (5000+2*sigma):
     Total_sigma2+=1
-  elif mark >= (5000-3*sigma) and mark<= (5000+3*sigma):
+  if mark >= (5000-3*sigma) and mark<= (5000+3*sigma):
     Total_sigma3+=1
-  elif mark >= (5000-4*sigma) and mark<= (5000+4*sigma):
+  if mark >= (5000-4*sigma) and mark<= (5000+4*sigma):
     Total_sigma4+=1
-  else:
-    Outlier+=1
 
 print(Total_sigma1/1000000)
 print(Total_sigma2/1000000)
 print(Total_sigma3/1000000)
 print(Total_sigma4/1000000)
-print(Outlier/1000000)
 ```
 If the distribution of data follow the normal distribution, then we will get a result near to the Expected fraction of
 population inside range(taken from [68–95–99.7 rule](https://en.wikipedia.org/wiki/68%E2%80%9395%E2%80%9399.7_rule))
+
+|        Range        |  Expected fraction of population inside range  |  
+|        :---:        |                      :---:                     |        
+| $\mu \pm 1 \sigma$  |               ~0.682689492137086               |       
+| $\mu \pm 2 \sigma$  |               ~0.954499736103642               |        
+| $\mu \pm 3 \sigma$  |               ~0.997300203936740               |
+| $\mu \pm 3 \sigma$  |               ~0.999936657516334               |
 
 
