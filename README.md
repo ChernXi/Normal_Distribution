@@ -72,10 +72,9 @@ for mark in list_mark:
   if mark >= (5000-4*sigma) and mark<= (5000+4*sigma):
     Total_sigma4+=1
 
-print(Total_sigma1/1000000)
-print(Total_sigma2/1000000)
-print(Total_sigma3/1000000)
-print(Total_sigma4/1000000)
+Dict1 = {"μ ± σ":Total_sigma1/1000000, "μ ± 2σ":Total_sigma2/1000000, "μ ± 3σ":Total_sigma3/1000000, "μ ± 4σ":Total_sigma4/1000000}
+df1 = pd.DataFrame(Dict1, index=["Expected fraction inside the range"]).T
+df1
 ```
 If the distribution of data follow the normal distribution, then we will get a result near to the Expected fraction of
 population inside range(taken from [68–95–99.7 rule](https://en.wikipedia.org/wiki/68%E2%80%9395%E2%80%9399.7_rule))
@@ -86,5 +85,8 @@ population inside range(taken from [68–95–99.7 rule](https://en.wikipedia.or
 | $\mu \pm 2 \sigma$  |                0.954499736103642               |        
 | $\mu \pm 3 \sigma$  |                0.997300203936740               |
 | $\mu \pm 3 \sigma$  |                0.999936657516334               |
+
+Our result is:<br>
+![image](https://user-images.githubusercontent.com/108325848/185755405-62f18b29-cbe9-4ecf-846e-669fc024cc33.png)
 
 
