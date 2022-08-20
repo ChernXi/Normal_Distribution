@@ -1,18 +1,20 @@
 # Normal_Distribution
 
 ## Introduction
-Normal Distribution is the distribution for **cumulative values of random binomial constant 1(yes) or 0(no)**.<br>
-This has nothing to do with the physical laws, this is purely a mathematical/statistical result. <br>
-Yes, unchanged(at least quasi-static) physical laws allow the mathematics to take part in nature, therefore many observations follow the normal distribution, but other than that, the content of physical laws is irrelavant to the validity of the normal distribution.
 
-For example, the heights of people follow the normal distribution. When people are growing up, their DNA, bodily condition and the outer environment will integratedly determined whether they should continue to grow, this is somehow a **random** decision(people can't choose their own DNA, but of course they can choose their intake of nutrients and the outer environment, that's why people nowsaday are generally taller than their previous generation), and "to continue growing or not" is somehow a "to be or not to be" question, for which the result is **binomial**. Their heights is the **cumulative values** of the decision of "continue growing or not"? That is why the heights of people follow the normal distribution.
+The Normal Distribution is the cumulative distribution of a random binomial problem of 1 (yes) or 0 (no).
 
-The same logic apply to the IQ distribution of people. "Successfully study/train your brain or not" is a question integratedly determined by DNA, family supports, world values, resources and so on, this is somehow **random** among the publics. The result of each training is of course **binomial**, especially when adapt to the same education system. The **cumulative result** of training over ages is the IQ of the person, and this is why the distribution of IQ follows the normal distribution.
+This has nothing to do with the physical laws; this is purely a mathematical/statistical result. 
 
-The same logic can be applied to the biological size of the all the living creature, as well as the size of stones and so on. The size of stones also follow the normal distribution because it is the result of the random agglomeration of the particles over ages.
+Yes, unchanged(at least quasi-static) physical laws allow mathematics to take part in nature, so many observations follow the normal distribution, but other than that, the content of physical laws is irrelevant to the validity of the normal distribution.
 
-I think the example above is enough for your understanding. 
-To show that arguments above really make sense, we can convince ourselves from a simple example as demonstrated below.
+For example, the heights of people follow the normal distribution. When people are growing up, their DNA, bodily condition, and the outer environment will determine whether they should continue to grow. This is somehow a random decision(people can't choose their own DNA, but of course they can choose their intake of nutrients and the outer environment, that's why people nowadays are generally taller than their previous generation), and "to continue growing or not" is somehow a "to be or not to be" question, for which the result is binomial. Their heights are the cumulative values of the decision to "continue growing or not". That is why the heights of people follow the normal distribution.
+
+The same logic applies to the IQ distribution of people. "Successfully study/train your brain or not" is a question integratedly determined by DNA, family support, world values, resources, and so on. This is somehow random among the public. The result of each training is, of course, binomial, especially when adapted to the same education system. The cumulative result of training over time is the IQ of the person, and this is why the distribution of IQ follows the normal distribution.
+
+The same logic can be applied to the biological size of all living creatures, as well as the size of stones and so on. The size of stones also follows the normal distribution because it is the result of the random agglomeration of the particles over time.
+
+I think the example above is enough for our understanding. To show that the arguments above really make sense, we can convince ourselves by using a simple example, as demonstrated below.
 
 ## An example to show why normal distribution is purely a distribution of the cumulative values of random binomial constant.
 Consider this problem: <br>
