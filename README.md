@@ -82,9 +82,9 @@ population inside range(taken from [68–95–99.7 rule](https://en.wikipedia.or
 
 |        Range        |  Expected fraction of population inside range  |  
 |        :---:        |                      :---:                     |        
-| $\mu \pm 1 \sigma$  |               ~0.682689492137086               |       
-| $\mu \pm 2 \sigma$  |               ~0.954499736103642               |        
-| $\mu \pm 3 \sigma$  |               ~0.997300203936740               |
-| $\mu \pm 3 \sigma$  |               ~0.999936657516334               |
+| $\mu \pm 1 \sigma$  |                0.682689492137086               |       
+| $\mu \pm 2 \sigma$  |                0.954499736103642               |        
+| $\mu \pm 3 \sigma$  |                0.997300203936740               |
+| $\mu \pm 3 \sigma$  |                0.999936657516334               |
 
 
