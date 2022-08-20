@@ -97,7 +97,7 @@ plt.figure(figsize=(8,4))
 plt.hist(list_mark, bins=200, range=(4800,5200))
 plt.show() 
 ```
-The figure of the histogram of marks is:
+The figure of the histogram of marks is:<br>
 ![image](https://user-images.githubusercontent.com/108325848/185757954-92e70406-7165-437f-9913-806d1e9681ba.png)
 
 On the other hand, we can also plot the histogram of random data follow the normal distribution with the same mean and standard deviation:
