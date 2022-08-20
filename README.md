@@ -4,9 +4,9 @@
 
 The normal distribution, also known as the Gaussian Distribution, is the limiting case of binomial distribution when the size of a single sample is infinitesimally small, and the number of sample in infinitely large. 
 
-Although normal distribution is widely applied in natural sciences, but the abundancy of its occurence has nothing to do with the physical laws, because this is in fact purely a mathematical/statistical result. 
+Although normal distribution is widely applied in natural sciences, the abundancy of its occurence has nothing to do with the physical laws, because this is in fact purely a mathematical/statistical result. 
 
-Yes, unchanged(or at least quasi-static) physical laws allow mathematics to take part in nature, but other than that, the content of physical laws is irrelevant to the occurence of the normal distribution.
+It may resort to unchanged or quasi-static physical laws that allow mathematics to participate in nature, but the content of physical laws is irrelevant to the occurrence of the normal distribution.
 
 For example, the heights of people follow the normal distribution. When people are growing up, their DNA, bodily condition, and the outer environment will determine whether they should continue to grow. This is somehow a random decision(people can't choose their own DNA, but of course they can choose their intake of nutrients and the outer environment, that's why people nowadays are generally taller than their previous generation), and "to continue growing or not" is somehow a "to be or not to be" question, for which the result is binomial. Their heights are the cumulative values of the decision to "continue growing or not". That is why the heights of people follow the normal distribution.
 
