@@ -46,6 +46,7 @@ for i in range(student_number):
 # Then download the csv file.
 # you may call the csv file by uploading it the csv file and use it.  
 
+import pandas as pd
 data1 = {"marks": list_mark}
 df1 = pd.DataFrame(data1)  #add index=0 inside if error
 df1.to_csv("list_random_mark.csv")
