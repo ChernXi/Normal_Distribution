@@ -54,6 +54,7 @@ df1.to_csv("list_random_mark.csv")
 ```
 
 3. upload the downloaded file and transform it back to a list.
+```
 from google.colab import files
 uploaded = files.upload()
 list_mark_called = pd.read_csv("list_random_mark.csv", header=0) 
@@ -77,6 +78,7 @@ print(sigma)
 ```
 
 5. calculate the fraction of value inside the range categorized by using the standard deviation.
+```
 Total_sigma1=0
 Total_sigma2=0
 Total_sigma3=0
