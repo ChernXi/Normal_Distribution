@@ -1,4 +1,4 @@
-#### _Read this in [other languages](Translation.md)._
+#### _[中文](Translation.md)._
 
 <kbd>[<img title="中文 (Simplified)" alt="中文 (Simplified)" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/cn.svg" width="22">](translations/README.chs.md)</kbd>
 
