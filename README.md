@@ -1,4 +1,4 @@
-#### _Read this in [other languages](Translations.md)._
+#### _Read this in [other languages](Translation.md)._
 
 <kbd>[<img title="Shqip" alt="Shqip" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/al.svg" width="22">](translations/README.al.md)</kbd>
 <kbd>[<img title="Uzbek" alt="Uzbek language" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/uz.svg" width="22">](translations/README.uz.md)</kbd>
